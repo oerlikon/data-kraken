@@ -12,6 +12,8 @@ symbols:
       - name: ETHXBT
       - name: LTCUSD
       - name: LTCEUR
+      - name: XRPUSD
+      - name: XRPEUR
       - name: EURUSD
       - name: ADAUSD
       - name: XDGUSD
