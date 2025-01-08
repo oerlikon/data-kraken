@@ -1,0 +1,24 @@
+symbols:
+  - market: Kraken
+    time: UTC
+    start: 2018
+    symbols:
+      - name: XBTUSD
+      - name: XBTUSDT
+      - name: XBTEUR
+      - name: ETHUSD
+      - name: ETHUSDT
+      - name: ETHEUR
+      - name: ETHXBT
+      - name: LTCUSD
+      - name: LTCEUR
+      - name: XRPUSD
+      - name: XRPEUR
+      - name: EURUSD
+      - name: ADAUSD
+      - name: XDGUSD
+      - name: SOLUSD
+actions:
+  - using: kraken
+    actions:
+      - name: import
