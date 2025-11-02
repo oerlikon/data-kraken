@@ -1,0 +1,21 @@
+symbols:
+  - market: Kraken
+    time: UTC
+    start: 2024
+    symbols:
+      - name: XBTUSD
+      - name: XBTEUR
+      - name: ETHUSD
+      - name: ETHEUR
+      - name: XRPUSD
+      - name: XRPEUR
+      - name: SOLUSD
+      - name: SUIUSD
+      - name: XDGUSD
+      - name: ADAUSD
+      - name: USDCEUR
+actions:
+  - using: kraken
+    actions:
+      - name: fetch
+      - name: import
