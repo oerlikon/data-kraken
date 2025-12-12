@@ -19,3 +19,5 @@ actions:
     actions:
       - name: fetch
       - name: import
+      - name: serve
+      - name: test
